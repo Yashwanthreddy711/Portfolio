@@ -1,0 +1,21 @@
+
+ nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  #nav-links {
+    display: none;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+
+

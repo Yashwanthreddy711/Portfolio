@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css or index.scss */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+span{
+    display: inline-block;
+}
+.blob{
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px #0a192f;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+    0%,100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% /50% 60% 30% 60%;
+    }
+    
+}
