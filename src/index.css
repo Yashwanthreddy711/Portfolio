@@ -4,6 +4,21 @@
 /* index.css or index.scss */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+body{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px; /* Adjust the width as needed */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Hide the track */
+  }
+
 span{
     display: inline-block;
 }
