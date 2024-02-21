@@ -12,10 +12,6 @@ import MongoDB from '../assets/mongodb.png'
 import Mysql from '../assets/mysql.png'
 import Redux from '../assets/redux.png'
 import Git from '../assets/git.png'
-
-
-
-import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 
 

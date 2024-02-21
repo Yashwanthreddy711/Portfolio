@@ -2,7 +2,7 @@ import React from 'react'
 import Project1 from '../assets/project1.jpg';
 import {RiGithubFill } from 'react-icons/ri';
 import {FaExternalLinkAlt} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
   return (
