@@ -17,13 +17,13 @@ const Contact = () => {
 
 
   return (
-    <div id='contact' className="flex flex-col items-center w-full min-h-screen mt-60 bg-custom">
+    <div id='contact' className="flex flex-col items-center w-full min-h-screen pt-32 mx-auto bg-custom">
    <div className='font-bold flex justify-center tracking-[5px] text-center text-white group overflow-y-hidden  '>
             <p className='relative md:text-3xl sm:text-2xl'>
               CONTACT ME
                      </p>
             </div>
-    <div className='flex flex-col w-1/2 h-auto m-auto mt-20 bg-white rounded-lg '>
+    <div className='flex flex-col h-auto m-auto mt-20 bg-white rounded-lg md:w-1/2 '>
       <form ref={form} onSubmit={sendEmail} className='p-10' action="#">
         <div >
           <label htmlFor="name" className='block p-2 font-sans text-base md:text-xl '>Name</label>

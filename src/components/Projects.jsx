@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
-    <div id="projects" className='w-full h-auto mt-60 bg-custom'>
+    <div id="projects" className='w-full h-auto pt-32 bg-custom'>
        <div className='max-w-[1000px] flex flex-col justify-center w-full h-auto p-4 mx-auto'>
        <div className='font-bold flex justify-center tracking-[5px] text-center text-white group overflow-y-hidden  '>
             <p className='relative overflow-y-hidden md:text-3xl sm:text-2xl'>
@@ -18,19 +18,28 @@ const Projects = () => {
                 <img className='w-96 overflow-y-hidden md:w-[800px] cursor-pointer first-letter:  border-2 rounded-lg h-60'src={Project1} alt="" />
               </div>
               <div className='pl-10 max-w-[500px]  ' >
-                 <p className='text-[#50C9CD] font-bold hover:w-[110%] text-2xl flex pl-5 md:text-4xl overflow-y-hidden '>CRYPTO BOLT</p>
-                 <p className='pt-5 pl-5 overflow-y-hidden text-xl text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quibusdam porro praesentium ipsa libero, ex dolores fuga obcaecati. Exercitationem, corporis?</p>
+                 <p className='text-[#50C9CD] font-bold hover:w-[110%] text-2xl flex pl-5 md:text-2xl overflow-y-hidden '>CRYPTO BOLT</p>
+                 <p className='pt-5 pl-5 overflow-y-hidden text-xl text-gray-400'>Crypto Bolt helps to display the realtime crypto currencies , it uses CoinGecko api to get the details of currencies.  </p>
+                 <div className='flex gap-2 pt-5 ml-5'>
+                      <h1 className='flex items-center justify-center w-auto h-8 md:p-2 p-1 text-center text-gray-400 border-2 border-[#50C9CD] md:text-[16px] text-[14px] rounded-md'>React</h1>
+                      <h1 className='flex items-center justify-center w-auto h-8 md:p-2 p-1 text-center text-gray-400 border-2 border-[#50C9CD] md:text-[16px] text-[14px]  rounded-md '>Chart js</h1>
+                      <h1 className='flex items-center justify-center w-auto h-8 md:p-2 p-1 text-center text-gray-400 border-2 border-[#50C9CD] md:text-[16px] text-[14px]  rounded-md'>CoinGecko API</h1>
+                      
+                     
+                 </div>
                  <div className='flex pt-5 pl-5'>
                    <div className='flex text-2xl text-white'>
-                    <RiGithubFill size={30} color='white'/>
+                    <RiGithubFill className='cursor-pointer ' size={30} color='white' 
+                     onClick={() => window.open("https://github.com/Yashwanthreddy711/crypto-bolt", "_blank")}/>
                    </div>
                    <div className='flex pl-4 mt-1 text-2xl text-white'>
-                    <FaExternalLinkAlt size={20} color='white'/>
+                    <FaExternalLinkAlt className='cursor-pointer' size={20} color='white' 
+                    onClick={() => window.open("https://crypto-bolt.netlify.app", "_blank")}/>
                    </div>
                  </div>
               </div>
             </div>
-            <div className='flex flex-col pt-10 pl-0 mx-auto mt-10 md:flex-row'>
+            {/* <div className='flex flex-col pt-10 pl-0 mx-auto mt-10 md:flex-row'>
               <div className='pl-10 max-w-[500px] overflow-y-hidden  ' >
                  <p className='text-[#50C9CD] font-bold text-2xl flex pl-5 md:text-4xl overflow-y-hidden '>CRYPTO BOLT</p>
                  <p className='pt-5 pl-5 overflow-y-hidden text-xl text-gray-400' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quibusdam porro praesentium ipsa libero, ex dolores fuga obcaecati. Exercitationem, corporis?</p>
@@ -75,7 +84,7 @@ const Projects = () => {
             <span className="relative invisible sm:text-sm">Other Projects</span>
           </button>
           </Link>
-          </div>
+          </div> */}
        </div>
     </div>
   )

@@ -55,8 +55,8 @@ const Home = () => {
           <h6 className="text-lg text-center md:text-2xl">
             intuitive user interfaces for websites and web applications
           </h6> */}
-          <p className="text-white mt-60 md:text-2xl">Hi,my name is</p>
-          <div className="overflow-y-hidden text-4xl font-bold md:text-7xl">
+          <p className="mt-48 text-white md:text-2xl">Hi,my name is</p>
+          <div className="text-4xl font-bold md:text-7xl">
           {
         title.map((letter,index)=>(
             <TextSpan key={index}>
@@ -65,7 +65,7 @@ const Home = () => {
         ))
 }
           </div>
-          <div className='overflow-y-hidden text-4xl font-bold md:text-7xl '>
+          <div className='pb-4 overflow-y-hidden text-4xl font-bold md:text-7xl '>
             {
                desc.map((letter,index)=>(
                 <TextSpan key={index}>
@@ -75,7 +75,7 @@ const Home = () => {
             }
         </div>
         <p className=' py-4 max-w-[700px] text-lg md:text-2xl'>
-        I am a frontend web developer specializing in creating beautiful and
+        I am a  developer specializing in creating beautiful and
           intuitive user interfaces for websites and web applications
         </p>
           <div>

@@ -6,6 +6,13 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Cplus from '../assets/c++.png';
 import python from '../assets/python.png';
+import Nodejs from '../assets/nodejs.png'
+import Express from '../assets/express.png'
+import MongoDB from '../assets/mongodb.png'
+import Mysql from '../assets/mysql.png'
+import Redux from '../assets/redux.png'
+import Git from '../assets/git.png'
+
 
 
 import GitHub from '../assets/github.png';
@@ -14,7 +21,7 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-auto text-gray-300 mt-60 bg-custom '>
+    <div name='skills' className='w-full h-auto pt-32 text-gray-300 bg-custom '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='font-bold flex justify-center tracking-[5px] text-center text-white group overflow-y-hidden  '>
             <p className='relative overflow-y-hidden md:text-3xl sm:text-2xl'>
@@ -48,10 +55,30 @@ const Skills = () => {
                   <p className='my-4'>Python</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={GitHub} alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={Git} alt="HTML icon" />
+                  <p className='my-4'>Git</p>
               </div>
              
+              <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={Nodejs} alt="HTML icon" />
+                  <p className='my-4'>NodeJS</p>
+              </div>
+              <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={Express} alt="HTML icon" />
+                  <p className='my-4'>Express</p>
+              </div>
+              <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={MongoDB} alt="HTML icon" />
+                  <p className='my-4'>MongoDB</p>
+              </div>
+              <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={Mysql} alt="HTML icon" />
+                  <p className='my-4'>Mysql</p>
+              </div>
+              <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto overflow-y-hidden' src={Redux} alt="HTML icon" />
+                  <p className='my-4'>Redux</p>
+              </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto overflow-y-hidden' src={Tailwind} alt="HTML icon" />
                   <p className='my-4'>TAILWIND</p>

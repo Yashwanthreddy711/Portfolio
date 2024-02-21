@@ -66,15 +66,11 @@ const Header = () => {
   CONTACT
   <span className="absolute inset-x-0 bottom-6 h-0.5 bg-custom2 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 </Link>
-        <Link className="relative p-4 mt-2 ml-5 tracking-[1px] text-white cursor-pointer group">
+        <Link className="relative p-4 mt-2 ml-5 tracking-[1px] text-white cursor-pointer group"
+        onClick={() => window.open("https://drive.google.com/file/d/1Qe03aOfBjFKnAHsS13gytp1y3whrqo9h/view", "_blank")}
+        >
           {" "}
-          <a
-            href="https://drive.google.com/file/d/1q-8rtwgb-qCjklF7F6iPCwBoJL1UtuoC/view?usp=share_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RESUME
-          </a>
+          RESUME
           <span className="absolute inset-x-0 bottom-6 h-0.5 bg-custom2 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
         </Link>
       </ul>
@@ -101,6 +97,7 @@ const Header = () => {
             offset={-50}
             duration={500}
             className="p-4 text-white border-b border-gray-800 cursor-pointer"
+            onClick={()=>setnav(!nav)}
           >
             Home
           </Link>
@@ -112,6 +109,7 @@ const Header = () => {
             offset={-50}
             duration={500}
             className="p-4 text-white border-b border-gray-800 cursor-pointer "
+            onClick={()=>setnav(!nav)}
           >
             About
           </Link>
@@ -123,6 +121,7 @@ const Header = () => {
             offset={-50}
             duration={500}
             className="p-4 text-white border-b border-gray-800 cursor-pointer"
+            onClick={()=>setnav(!nav)}
           >
             Projects
           </Link>
@@ -131,21 +130,20 @@ const Header = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
             className="p-4 text-white border-b border-gray-800 cursor-pointer"
+            onClick={()=>setnav(!nav)}
           >
             Contact
           </Link>
-          <Link className="p-4 mt-2 text-white border-b border-gray-800 cursor-pointer">
+          <Link className="p-4 mt-2 text-white border-b border-gray-800 cursor-pointer"
+          onClick={() => window.open("https://drive.google.com/file/d/1Qe03aOfBjFKnAHsS13gytp1y3whrqo9h/view", "_blank")}
+          >
             {" "}
-            <a
-              href="https://drive.google.com/file/d/1q-8rtwgb-qCjklF7F6iPCwBoJL1UtuoC/view?usp=share_link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+           
               Resume
-            </a>
+            
           </Link>
         </ul>
       </div>

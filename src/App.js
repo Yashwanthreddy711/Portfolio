@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
+import {  BrowserRouter as Router} from 'react-router-dom';
 import './index.css';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -7,28 +7,28 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
 import Skills from './components/Skills';
-import Moreprojects from './components/Moreprojects';
+
 
 
 function App() {
   return (
     <div className='w-full h-full font-inter bg-custom'>
-    
+   
   <Router>
-  
     <Header/>
-    <Routes>
-   <Route path='/moreprojects' element={<Moreprojects/>}/>
-   </Routes>
-   <Home/>
+       
+        <Home/>
    <About/>
    <Skills/>
    <Projects/>
    <Contact/>
    <Footer/>
-   
-   
-      </Router>  
+      
+  
+      </Router> 
+     
+     
+
       </div>
   
   );
