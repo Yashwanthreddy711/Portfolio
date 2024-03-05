@@ -1,18 +1,5 @@
 import React from 'react';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Cplus from '../assets/c++.png';
-import python from '../assets/python.png';
-import Nodejs from '../assets/nodejs.png'
-import Express from '../assets/express.png'
-import MongoDB from '../assets/mongodb.png'
-import Mysql from '../assets/mysql.png'
-import Redux from '../assets/redux.png'
-import Git from '../assets/git.png'
-import Tailwind from '../assets/tailwind.png';
 
 
 const Skills = () => {
@@ -27,56 +14,56 @@ const Skills = () => {
 
            <div className='grid w-full grid-cols-2 gap-4 py-8 mt-10 text-center sm:grid-cols-4'>
            <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden ' src={Cplus} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden ' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="HTML icon" />
                   <p className='my-4'>C++</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={HTML} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML icon" />
                   <p className='my-4'>HTML</p>
               </div> 
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={CSS} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="HTML icon" />
                   <p className='my-4'>CSS</p>
               </div>
               <div className='shadow-md shadow-[#0a192f]  hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={JavaScript} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="HTML icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={python} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="HTML icon" />
                   <p className='my-4'>Python</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Git} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="HTML icon" />
                   <p className='my-4'>Git</p>
               </div>
              
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Nodejs} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="HTML icon" />
                   <p className='my-4'>NodeJS</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Express} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="HTML icon" />
                   <p className='my-4'>Express</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={MongoDB} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="HTML icon" />
                   <p className='my-4'>MongoDB</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Mysql} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="HTML icon" />
                   <p className='my-4'>Mysql</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Redux} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" alt="HTML icon" />
                   <p className='my-4'>Redux</p>
               </div>
               <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto overflow-y-hidden' src={Tailwind} alt="HTML icon" />
+                  <img className='w-20 mx-auto overflow-y-hidden' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="HTML icon" />
                   <p className='my-4'>TAILWIND</p>
               </div>
               
