@@ -14,13 +14,13 @@ const About = () => {
             </div>
             <div className="flex flex-col md:flex-row md:pl-28 ">
               <p className="w-full pt-20 ml-4 overflow-y-hidden text-lg text-white md:w-1/2 md:ml-10 md:text-2xl">
-              I'm a passionate Fullstack Developer based in India, specializing in the transformative MERN Stack. With expertise in MongoDB, Express.js, React.js, and Node.js, I craft captivating interfaces that propel the success of websites and applications. I'm driven by a fusion of artistry and technical prowess, constantly seeking to expand my skill set and stay at the forefront of industry trends. I thrive in collaborative environments where I can contribute, learn, and grow.If you have a good opportunity that matches my skills <Link
+              I'm a passionate Fullstack Developer based in India,With expertise in MongoDB,Express,React and Nodejs,I craft captivating interfaces that propel the success of websites and applications.I'm driven by a fusion of artistry and technical prowess,constantly seeking to expand my skill set and stay at the forefront of industry trends.I thrive in collaborative environments where I can contribute, learn, and grow.If you have a good opportunity that matches my skills <Link
   to="contact"
   activeClass="active"
   spy={true}
   smooth={true}
   offset={-50}
-  duration={500} className='overflow-y-hidden border-b-2 border-white border-solid cursor-pointer text-bold'>Contact Me</Link>.
+  duration={500} className='overflow-y-hidden border-b-2 text-[#50C9CD] border-white border-solid cursor-pointer text-bold'>Hire me</Link>.
 
  
               </p>
