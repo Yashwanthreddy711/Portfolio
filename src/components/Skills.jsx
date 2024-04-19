@@ -12,7 +12,7 @@ const Skills = () => {
                      </p>
             </div>
 
-           <div className='grid w-full grid-cols-2 gap-4 py-8 mt-10 text-center sm:grid-cols-4'>
+           <div className='grid w-full grid-cols-1 gap-4 py-8 mt-10 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
            <div className='shadow-md shadow-[#0a192f] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto overflow-y-hidden ' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="HTML icon" />
                   <p className='my-4'>C++</p>

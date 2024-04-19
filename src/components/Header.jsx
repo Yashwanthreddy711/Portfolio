@@ -67,7 +67,7 @@ const Header = () => {
   <span className="absolute inset-x-0 bottom-6 h-0.5 bg-custom2 transform origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 </Link>
         <Link className="relative p-4 mt-2 ml-5 tracking-[1px] text-white cursor-pointer group"
-        onClick={() => window.open("https://drive.google.com/file/d/1Qe03aOfBjFKnAHsS13gytp1y3whrqo9h/view", "_blank")}
+        onClick={() => window.open("https://drive.google.com/file/d/1wppdUom5uDcQmedytlW2IBsmu1eDfz6b/view", "_blank")}
         >
           {" "}
           RESUME
