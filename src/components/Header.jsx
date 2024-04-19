@@ -138,7 +138,7 @@ const Header = () => {
             Contact
           </Link>
           <Link className="p-4 mt-2 text-white border-b border-gray-800 cursor-pointer"
-          onClick={() => window.open("https://drive.google.com/file/d/1Qe03aOfBjFKnAHsS13gytp1y3whrqo9h/view", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/1wppdUom5uDcQmedytlW2IBsmu1eDfz6b/view", "_blank")}
           >
             {" "}
            
